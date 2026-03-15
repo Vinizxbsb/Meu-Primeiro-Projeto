@@ -4,27 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-    <div>
-    <h1>Portifólio do Vinícius</h1>
-    <p>Primeiro projeto em HTML e CSS.</p>
-    <a href="https://www.instagram.com/vinizx.bsb/" target="_blank">
-    Meu instagram 
-    </a>
-    </div>
-    <div><a href="https://github.com/vinizxbsb">
-    Meu github
-    </a>
-    </div>
-    <div>
-    <h4>O quê estou aprendendo no momento </h4>
-    <p>Python</p>
-    <p>HTML & CSS</p>
-    <p>Java</p>
-    </div>
-    </div>
+   <header>
+    <nav>
+        <a href="#Sobre">Sobre</a>
+        <a href="#Habilidades">Habilidades</a>
+        <a href="#Projetos">Projetos</a>
+        <a href="#Contato">Contato</a>
+    </nav>
+   </header>
+    <section class="hero">
+        <h1>Vinícius e Silva Lopes</h1>
+        <h2>Desenvolvedor em Formação</h2>
+        <p>Estudando Python, HTML & CSS e criando projetos práticos para evoluir na programação</p>
+        <a href="#projetos" class="btn">Ver Projetos</a>
+    </section>
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Meu nome é Vinícius e Silva Lopes, tenho 18 anos, sou de Brasília/DF, estou começando na área da programação.
+            atualmente estudo Python, HTML & CSS e desenvolvo projetos básicos para praticar lógica e desenvolvimento Web.
+        </p>
+    </section>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="Skills">
+            <ul>
+                <div class="skill"><li>Python</li></div>
+                <div class="skill"><li>HTML</li></div>
+                <div class="skill"><li>CSS</li></div>
+                <div class="skill"><li>Git</li></div>
+            </ul>
+        </div>
+    </section>
+    <section id="projetos"
+        <h2>Meus Projetos</h2>
+        <div class="projetos-grid">
+            <div class="projeto-card">
+                <h3>Quiz Interativo</h3>
+                <p>Um Quiz Interativo onde usei Python com as funções if, input de respostas e um sistema de pontos, focando no aprendizado.</p>
+                <div class="projeto-tags">
+                    <span>Python</span>
+                </div>
+                <a href="https://github.com/Vinizxbsb/Quiz-Interativo.git" target="_blank">Ver no github</a>
+            </div>
+            <div class="projeto-card">
+                <h3>Gerenciador de Tarefas</h3>
+                <p>Projeto focado para organizar tarefas do dia a dia com as funçoes de adicionar tarefas, remove-las, mostra-las e sair do gerenciador.</p>
+                <div class="projeto-tags">
+                    <span>Python</span>
+                </div>
+                <a href="https://github.com/Vinizxbsb/Gerenciador-de-Tarefas---Task-Manager-.git" target="_blank">Ver no github</a>
+            </div>
+        </div>
+    <footer id="contato">
+        <div class="footer-conteudo">
+            <p>Vinícius e Silva Lopes &copy; 2025</p>
+            <nav class="footer-link">
+                <a href="https://github.com/Vinizxbsb" target="_blank">Meu github</a>
+                <a href="https://www.linkedin.com/in/vinicius-silva-3561b7383/" target="_blank">Meu linkedin</a>
+                <a href="mailto:viniciusvsl2219@gmail.com" target="_blank">Meu gmail</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
